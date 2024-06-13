@@ -46,7 +46,7 @@ cors_proxy.createServer({
     // Custom header setting function
     setHeaders: function (req, res, proxyRes) {
       // Set custom Referer and Origin headers
-      proxyRes.headers['Referer'] = 'https://www.starplus.com; // Replace with your desired Referer
+      proxyRes.headers['Referer'] = 'https://www.starplus.com'; // Replace with your desired Referer
       proxyRes.headers['Origin'] = 'https://www.starplus.com';  // Replace with your desired Origin
     }
   },
